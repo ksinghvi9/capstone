@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #form{
+            margin: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 350px;
+            gap: 30px;
+        }
+        .button{
+            padding: 15px 30px;
+            width: 250px;
+            height: 80px;
+            cursor: pointer;
+            font-size: 30px;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+        #new{
+            background-color: blue;
+            color: white;
+        }
+        #existing{
+            color: white;
+            background-color: rgb(52, 194, 21);
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <button id="new" class="button" onclick="location.href='#';" type="button">New User</button>
+        <button id="existing" class="button" onclick="location.href='#';" type="button">Existing User</button>
+    </form>
+</body>
+</html>
