@@ -11,10 +11,13 @@
     padding-left: 15px;
     text-decoration: none;
 }
-.head:hover{
+.head-sub{
+    color: white;
+    text-decoration: none;
+}
+.head-sub:hover{
     color: orange;
 }
-
 a {
     margin-right: 200px;
 }
@@ -211,4 +214,20 @@ p {
     margin-top: 10px;
     font-size: 30px;
     font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.title{
+    border: 2px solid black;
+    border-radius:20px;
+    margin-top: 40px;
+}
+.title:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
 }
