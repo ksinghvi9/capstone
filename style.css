@@ -20,6 +20,9 @@ a {
     color: rgb(247, 167, 7);
     text-decoration: none;
 }
+#logo.hover{
+    cursor: pointer;
+}
 
 #b1 {
     width: 50px;
@@ -40,8 +43,7 @@ a {
     background-image:url("luxury.jpg");
     background-color: blue;
     background-size: cover;
-
-
+    
 }#b3 {
     width: 50px;
     height: 50px;
